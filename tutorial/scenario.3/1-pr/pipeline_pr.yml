@@ -12,7 +12,8 @@ resources:
   - name: super-app
     type: pull-request
     source:
-      repo: hellofresh/concourse-tutorial
+      repo: siempredelao/concourse-tutorial
+      access_token: {{github_token}}
 
 jobs:
   - name: PR unit testing
